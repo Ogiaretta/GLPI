@@ -1,7 +1,7 @@
-# GLPI - Backup usando o CRONTAB do Linux 
+# <b>GLPI - Backup usando o CRONTAB do Linux<b/> 
 
 
-# Define o diretório de backup do GLPI
+# <br /> Define o diretório de backup do GLPI<br />
 DIR="/var/www/html/glpi/backups";
 #
 # Define o formato do nome do arquivo de backup
@@ -39,5 +39,4 @@ echo "Arquivo movido com sucesso!";
 #
 # Usar o CRONTAB e dessa forma irá executar de 6 em 6 horas
  crontab -e
- #
- 0 0,6,12,18 * * * sh /var/www/html/glpi/backup.sh
+<br />0 0,6,12,18 * * * sh /var/www/html/glpi/backup.sh<br />
